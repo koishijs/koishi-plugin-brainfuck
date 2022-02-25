@@ -1,10 +1,10 @@
 {
   "name": "koishi-plugin-brainfuck",
   "description": "Execute Brainfuck in Koishi",
-  "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "author": "Shigma <shigma10826@gmail.com>",
   "files": [
     "lib",
     "dist"
@@ -14,7 +14,10 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "brainfuck",
+    "execute",
+    "code"
   ],
   "peerDependencies": {
     "koishi": "^4.3.2"
