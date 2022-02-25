@@ -113,7 +113,7 @@ class BrainFuck {
 export const name = 'brainfuck'
 
 export function apply(ctx: Context, config: Config) {
-  ctx.command('tools/brainfuck <code>', '运行 brainfuck 代码')
+  ctx.command('brainfuck <code>', '运行 brainfuck 代码')
     .alias('bf')
     .option('input', '-- <input:rawtext>  设置输入', { fallback: '' })
     .usage('语言介绍：http://www.muppetlabs.com/~breadbox/bf')
