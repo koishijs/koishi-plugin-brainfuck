@@ -1,16 +1,23 @@
 {
   "name": "koishi-plugin-brainfuck",
   "description": "Execute Brainfuck in Koishi",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "author": "Shigma <shigma10826@gmail.com>",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-brainfuck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-brainfuck/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-brainfuck",
   "keywords": [
     "chatbot",
     "koishi",
