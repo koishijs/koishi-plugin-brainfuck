@@ -18,6 +18,9 @@
     "url": "https://github.com/koishijs/koishi-plugin-brainfuck/issues"
   },
   "homepage": "https://github.com/koishijs/koishi-plugin-brainfuck",
+  "scripts": {
+    "build": "atsc -b"
+  },
   "keywords": [
     "chatbot",
     "koishi",
@@ -27,6 +30,12 @@
     "code"
   ],
   "peerDependencies": {
-    "koishi": "^4.3.2"
+    "koishi": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "atsc": "^1.1.2",
+    "koishi": "^4.8.6",
+    "typescript": "^4.7.4"
   }
 }
